@@ -1,4 +1,6 @@
 <x-tests.app>
 <x-slot name="header">Header2</x-slot>
-component2
+<x-test-class-base classBaseMessage="メッセージです"/>
+<div class="mb-4"></div>
+<x-test-class-base classBaseMessage="メッセージです" defaultMessage="初期値から変更しています" />
 </x-tests.app>
